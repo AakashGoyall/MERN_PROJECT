@@ -1,0 +1,21 @@
+.header{
+    display : flex;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+}
+.col1{
+    padding : 15px;
+}
+
+ul{
+    display : flex;
+    list-style: none;
+    
+}
+li{
+    padding :15px;
+
+}
+.NavLink{
+    text-decoration: none;
+}

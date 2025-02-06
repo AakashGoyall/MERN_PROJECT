@@ -52,9 +52,10 @@ catch(err){
 //  This is Login LOgic
 const Login = async(req, res) => { try{
     const {email, password} = req.body;
-    console.log(req.body)
+    // console.log(req.body)
     console.log(req.body);
     const UserExist = await User.findOne({email});
+    console.log(UserExist)
     console.log("errir ")
 
     if(!UserExist){
@@ -66,6 +67,7 @@ const Login = async(req, res) => { try{
     const cpassword = bcrypt.compare(password, UserExist.password);
 
     if(password){
+        console.log("user login successfully")
         return res.status(201).json({msg : "user login successfully"});
     }
     res.json("invalid credentials");
