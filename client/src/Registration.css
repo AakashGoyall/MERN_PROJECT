@@ -1,0 +1,41 @@
+.section-registration{
+    display :flex;
+    padding-top: 8%;
+    /* align-items: center; */
+    height: 100vh;
+    overflow:auto;
+    justify-content: center;
+    /* background-color: rgb(233, 202, 202); */
+}
+.container{
+    display : flex;
+    grid-template-columns: 1fr 1fr;
+    /* background-color: white; */
+    /* color:white; */
+
+    /* align-items: stretch; */
+    
+}
+.main-heading{
+    padding-top:15px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    padding :15px;
+    padding-top: 25%;
+    /* justify-content: center; */
+}
+.col{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    margin : 2px;
+}
+.center{
+    display :flex;
+    justify-content: center;
+}
+.submit{
+    max-width: 50px;
+    
+}

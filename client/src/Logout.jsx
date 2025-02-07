@@ -1,10 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+// import { Navigate, useNavigate } from 'react-router-dom';
 
 const Logout = () => {
+
+  // const navigate = useNavigate();
+  // useEffect(()=>{
+  //   LogOutUser();
+  // },[LogOutUser])
+
+  // navigate('/register')
   return (
-    <div>
-      
-    </div>
+    <>
+    {/* <Navigate to="/" /> */}
+    </>
   )
 }
 

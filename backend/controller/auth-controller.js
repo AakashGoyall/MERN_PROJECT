@@ -86,6 +86,9 @@ const Logout = (req, res) => {
 }
 
 
+
+
+//This is Contact LOgic
 const Contact = async (req, res) => {
     try{
         console.log(req.body)

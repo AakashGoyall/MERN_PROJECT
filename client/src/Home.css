@@ -1,0 +1,34 @@
+/* .home-section{
+    color-scheme: light dark;
+} */
+ main{
+    background-color: rgba(199,201,249,255);
+    letter-spacing: 0.1rem;
+    font-size: 1.2rem;
+ }
+.container{
+    display : flex;
+    margin:20px;
+
+}
+.home-content{
+    padding:20px;
+}
+.btn{
+    margin-top:25%;
+}
+.btn-1{
+    margin-left: 2rem;
+    border:2px solid black;
+    color:white;
+    background-color: blue;
+    padding:7px;
+    border-radius: 5px;
+    /* -webkit-border-radius: 5px; */
+    /* -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px; */
+}
+p{
+    padding-top :7px
+}

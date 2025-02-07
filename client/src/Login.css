@@ -1,0 +1,15 @@
+.section-login{
+    display: flex;
+    justify-content: center;
+    padding-top: 8%;
+}
+.container{
+    display :flex;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.main-heading{
+    text-align: center;
+}
